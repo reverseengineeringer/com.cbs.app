@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/soft_grey" android:layout_width="@dimen/phone_dialog_width" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/phone_dialog_titlebar" />
+    <LinearLayout android:id="@id/content" android:background="@null" style="@style/PhoneDialogBody">
+        <Button android:id="@id/shareOnFacebookButton" android:text="@string/share_this_photo_on_facebook" style="@style/PhoneDialogBodyButtonFacebook" />
+        <Button android:id="@id/shareOnTwitterButton" android:text="@string/share_this_photo_on_twitter" style="@style/PhoneDialogBodyButtonTwitter" />
+        <Button android:id="@id/shareOnEmailButton" android:text="@string/share_this_photo_on_email" style="@style/PhoneDialogBodyButtonEmail" />
+    </LinearLayout>
+</RelativeLayout>

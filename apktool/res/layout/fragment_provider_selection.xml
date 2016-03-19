@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/tvHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sign_in_with_tv_provider" style="@style/LiveTvHeaderFontBlueTextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/tvTryAgain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/please_try_again" style="@style/LiveTvHeaderFont1TextStyle" />
+    <ViewFlipper android:id="@id/viewSwitcher" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/cbs_spacing" android:layout_weight="1.0">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" /> // Image grid
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/gridRecyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:gravity="center_horizontal" android:id="@id/tvMoreOptions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cbs_spacing" android:text="@string/more_options" style="@style/LiveTvBodyText2Style" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:gravity="center_horizontal" android:id="@id/tvProviderNotListedGrid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cbs_spacing" android:text="@string/provider_not_listed" style="@style/LiveTvBodyText2Style" />
+        </LinearLayout> // Searchable list w/ dark theme
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/live_tv_provider_recyclerview_margin" android:layout_marginRight="@dimen/live_tv_provider_recyclerview_margin">
+            <SearchView android:theme="@style/Theme.LiveTv.Dark" android:id="@id/searchView" android:background="@color/provider_search_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_default_half_padding" android:iconifiedByDefault="false" android:queryHint="@string/hint_search_providers" />
+            <android.support.v7.widget.RecyclerView android:theme="@style/Theme.LiveTv.Dark" android:id="@id/listRecyclerView" android:background="@color/live_tv_black_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:gravity="center_horizontal" android:id="@id/tvProviderNotListed" android:paddingLeft="@dimen/live_tv_default_padding" android:paddingRight="@dimen/live_tv_default_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cbs_spacing" android:text="@string/provider_not_listed" style="@style/LiveTvBodyText2Style" />
+        </LinearLayout>
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unable to load providers." style="@style/LiveTvHeaderFont3TextStyle" />
+    </ViewFlipper>
+    <include layout="@layout/include_questions_footer" />
+</LinearLayout>

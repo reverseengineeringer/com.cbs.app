@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/castLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/castHolder" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/deviceCastListHolder" android:layout_width="fill_parent" android:layout_height="195.0dip" />
+    <View android:id="@id/lineView" android:background="@color/cbsdivider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/deviceCastListHolder" />
+    <LinearLayout android:id="@id/lowerHolder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_below="@id/lineView">
+        <FrameLayout android:id="@id/middleHolder" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        <View android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <FrameLayout android:id="@id/rightHolder" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+    </LinearLayout>
+</RelativeLayout>

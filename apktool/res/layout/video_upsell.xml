@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:paddingTop="@dimen/cbs_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upsell_padding" android:layout_marginRight="@dimen/upsell_padding" android:src="@drawable/cbs_logo_all_access_v3" />
+    <TextView android:id="@id/msg_cms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upsell_padding" android:layout_marginTop="@dimen/cbs_spacing" android:layout_marginRight="@dimen/upsell_padding" />
+    <TextView android:id="@id/try_button__cms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upsell_padding" android:layout_marginTop="@dimen/cbs_spacing" android:layout_marginRight="@dimen/upsell_padding" />
+    <TextView android:textStyle="bold" android:textColor="@color/cbs_blue" android:id="@id/learn_cms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/upsell_padding" android:layout_marginTop="@dimen/cbs_spacing" android:layout_marginRight="@dimen/upsell_padding" android:layout_marginBottom="@dimen/cbs_spacing" android:text="Learn More_local" />
+    <include android:id="@id/upsell_button_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/two_horizontal_buttons" />
+</LinearLayout>

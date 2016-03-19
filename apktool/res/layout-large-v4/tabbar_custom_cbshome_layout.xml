@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/customTabCBSHomeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/cbs_logo" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/icon_cbs_eye_large" android:scaleType="centerInside" android:contentDescription="@string/contentDescription" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/marqueeImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/contentDescription" />
+    <ImageView android:id="@id/svodOverlayImg1" android:paddingTop="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/all_access_play_icon" android:layout_alignTop="@id/marqueeImage" android:layout_alignParentRight="true" android:contentDescription="@string/contentDescription" />
+</RelativeLayout>

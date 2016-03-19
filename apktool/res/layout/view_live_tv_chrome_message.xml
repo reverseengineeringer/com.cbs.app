@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/mvpd_chrome_message" android:background="@color/live_tv_black_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/messageHolder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="25.0dip" android:src="@drawable/cbsaa_livetv_overlay" />
+        <com.cbs.app.livetv.widget.CustomTypeFaceButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/chrome_button" android:padding="@dimen/live_tv_default_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/mvpd_cast_livetv_now" style="@style/LiveTvButton1Style" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.LiveTv.Light" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/live_tv_schedule" style="@style/LiveTvHeaderFontBlueTextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtTodayDate" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveTvHeaderFont4TextStyle" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/live_tv_default_quarter_padding" layout="@layout/live_tv_horz_divider_light" />
+    <LinearLayout android:id="@id/logosContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding">
+        <ImageView android:id="@id/imgStationLogo" android:layout_width="wrap_content" android:layout_height="@dimen/live_tv_schedule_logo_height" android:adjustViewBounds="true" />
+        <LinearLayout android:id="@id/providerLogoContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:id="@id/providerLogo" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/live_tv_default_half_padding" android:layout_marginRight="@dimen/live_tv_default_half_padding" layout="@layout/live_tv_horz_divider_light" />
+            <ImageView android:id="@id/imgProviderLogo" android:layout_width="wrap_content" android:layout_height="@dimen/live_tv_schedule_logo_height" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.cbs.app.livetv.widget.CustomTypeFaceButton android:layout_gravity="center_horizontal" android:id="@id/btnStartWatching" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding" android:text="@string/start_watching" style="@style/LiveTvButton1Style" />
+</LinearLayout>

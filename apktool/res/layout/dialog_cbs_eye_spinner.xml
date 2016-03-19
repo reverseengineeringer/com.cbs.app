@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/cbs_spacing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:gravity="center" android:id="@id/titleOfSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cbs_spacing" android:layout_marginBottom="@dimen/cbs_spacing" android:text="Checking Availability" android:layout_centerHorizontal="true" />
+    <ProgressBar android:id="@android:id/progress" android:layout_width="150.0dip" android:layout_height="150.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/cbs_eye_spinner_dark" android:layout_below="@id/titleOfSpinner" android:layout_centerHorizontal="true" style="?android:attr/progressBarStyleLarge" />
+    <View android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_below="@android:id/progress" />
+</RelativeLayout>

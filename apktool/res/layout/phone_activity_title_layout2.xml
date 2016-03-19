@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/llcbsMenuIcon" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/cbsMenuIcon" android:tag="0" android:background="@drawable/expand_phone_menu_unselected_40x40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cbs_spacing" android:layout_marginRight="@dimen/cbs_spacing" android:contentDescription="@string/contentDescription" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/llPhoneTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/dark_grey" android:ellipsize="end" android:id="@id/phoneActivityTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="54.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textIsSelectable="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/cbsTitleIcon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/cbs_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cbs_logo" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/contentDescription" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/buttonHolder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/cbs_spacing" android:layout_alignParentRight="true">
+        <Button android:id="@id/editMyShowsButton" android:background="@drawable/phone_signin_back_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_centerInParent="true" style="@style/actionMenuTextStyle" />
+        <Button android:id="@id/btn_show_social" android:background="@drawable/ic_share" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+        <Button android:textSize="12.0sp" android:id="@id/clearButton" android:background="@drawable/phone_signin_back_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/clear_history" android:layout_centerInParent="true" android:textAllCaps="false" style="@style/actionMenuTextStyle" />
+    </RelativeLayout>
+</RelativeLayout>

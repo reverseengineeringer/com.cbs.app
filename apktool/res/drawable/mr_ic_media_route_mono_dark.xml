@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/icon_cc_blue_on" />
+    <item android:state_enabled="true" android:state_checkable="true" android:drawable="@drawable/mr_ic_media_route_connecting_mono_light" />
+    <item android:state_enabled="true" android:drawable="@drawable/icon_cc_off_light" />
+    <item android:drawable="@drawable/icon_cc_off_light" />
+</selector>

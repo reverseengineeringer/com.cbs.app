@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/createAccountHolder" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="#ffff0000" android:id="@id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_spacing" style="@style/CBSBigBlueText" />
+    <CheckBox android:id="@id/terms_accept_checkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_spacing" android:checked="false" android:layout_below="@id/error" />
+    <TextView android:gravity="center|left" android:id="@id/termsTextView" android:paddingRight="20.0dip" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/signup_terms" android:layout_toRightOf="@id/terms_accept_checkBox" android:layout_below="@id/error" style="@style/CBSNormalGrayText" />
+</RelativeLayout>

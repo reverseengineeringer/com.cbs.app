@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="@dimen/dialog_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/concurrency_title" style="@style/ConcurrencyTitleStyle" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="14.0sp" android:textColor="@color/black" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/concurrency_msg_video_phone" />
+    <ImageView android:background="@color/soft_grey" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:contentDescription="@string/contentDescription" />
+</LinearLayout>

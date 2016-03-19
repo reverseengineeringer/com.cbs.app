@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/homeMarquee" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="horizontal" android:id="@id/radioComment" android:background="@drawable/rounded_radio_group" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:textSize="6.0pt" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/radioNewestComments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/comments_newest" />
+        <RadioButton android:textSize="6.0pt" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/radioOldestComments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/comments_oldest" />
+    </RadioGroup>
+    <Button android:textSize="7.0pt" android:gravity="center|left" android:layout_gravity="right" android:id="@id/btnPostComment" android:background="@drawable/button_grey_selector" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/comments_btn_post" />
+</LinearLayout>

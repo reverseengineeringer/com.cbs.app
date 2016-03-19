@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/topHolder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/url" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:inputType="textUri" android:imeOptions="actionSend" />
+        <Button android:id="@id/goButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/go_button" android:layout_toRightOf="@id/url" />
+        <Button android:id="@id/stopButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back" android:layout_toRightOf="@id/goButton" />
+        <Button android:id="@id/refreshButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh" android:layout_toRightOf="@id/stopButton" />
+    </RelativeLayout>
+    <WebView android:id="@id/regTestWebView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/consoleScroll" android:layout_below="@id/topHolder" />
+    <ScrollView android:id="@id/consoleScroll" android:background="@android:color/holo_green_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/console" android:background="@android:color/holo_green_light" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

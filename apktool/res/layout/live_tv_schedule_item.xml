@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/livetv_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/contentHolder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/headerHolder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22.0sp" android:textColor="@color/grey_background" android:id="@id/timeLive" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:id="@id/vertical_line" android:background="@color/svod_vert_bar_color" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/grey_background" android:id="@id/headerTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LIVE NOW" />
+        </LinearLayout>
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey_background" android:id="@id/showName" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/svod_grey_font_color" android:id="@id/episodeName" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/descriptionHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cbs_spacing">
+            <TextView android:textSize="14.0sp" android:textColor="@color/grey_background" android:ellipsize="end" android:id="@id/episodeDescription" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textColor="@color/svod_more_less_color" android:layout_gravity="bottom" android:id="@id/moreTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

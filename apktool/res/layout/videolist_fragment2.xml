@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/listHolderLayout" android:background="@drawable/radiant_white_right_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/videoFilterSpinnerV2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/cbs_spacing" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+        <TextView android:textStyle="bold" android:id="@id/defaultSeason" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CBSSpinnerStyle" />
+    </RelativeLayout>
+    <ListView android:id="@id/showVideoGrid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/videoFilterSpinnerV2" android:footerDividersEnabled="false" style="@style/CBSListViewPhone" />
+    <TextView android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_spacing" android:text="@string/no_videos" android:layout_below="@id/showVideoGrid" style="@style/CBSBigText" />
+</RelativeLayout>

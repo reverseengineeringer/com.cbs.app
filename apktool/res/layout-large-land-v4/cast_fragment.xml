@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/castLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/castHolder" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/deviceCastListHolder" android:layout_width="240.0dip" android:layout_height="fill_parent" />
+    <View android:id="@id/lineView1" android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <FrameLayout android:id="@id/middleHolder" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <View android:id="@id/lineView2" android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+    <FrameLayout android:id="@id/rightHolder" android:layout_width="@dimen/cast_right_list_width" android:layout_height="fill_parent" />
+</LinearLayout>

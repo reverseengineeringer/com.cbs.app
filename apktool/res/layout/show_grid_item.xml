@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_item_selector" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/show_thumbnail" android:layout_width="160.0dip" android:layout_height="93.0dip" android:layout_margin="@dimen/cbs_small_spacing" android:scaleType="centerCrop" android:contentDescription="@string/contentDescription" />
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_small_spacing" android:layout_marginBottom="@dimen/cbs_spacing" android:lines="2" android:textIsSelectable="false" style="@style/CBSMediumText" />
+</LinearLayout>

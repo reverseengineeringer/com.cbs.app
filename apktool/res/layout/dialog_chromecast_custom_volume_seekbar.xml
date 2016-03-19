@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/volume_container" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/firstVolumeIcon" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/dialog_volume_min" android:adjustViewBounds="true" android:layout_weight="0.15" />
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/volumeSlider" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="14.0dip" android:progressDrawable="@drawable/chromecast_progress" android:minWidth="260.0dip" android:minHeight="10.0dip" android:thumb="@drawable/chromecast_thumbnail_volume" android:thumbOffset="4.0dip" android:layout_weight="0.7" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/secondVolumeIcon" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/dialog_volume_max" android:layout_weight="0.15" />
+</LinearLayout>

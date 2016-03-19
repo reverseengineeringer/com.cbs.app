@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.LiveTv.Light" android:orientation="vertical" android:paddingLeft="@dimen/live_tv_horz_content_padding" android:paddingTop="@dimen/live_tv_vert_content_padding" android:paddingRight="@dimen/live_tv_horz_content_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/programsHeader" android:clipChildren="false" android:clipToPadding="false" layout="@layout/view_live_tv_schedule_programs_header" />
+    <com.cbs.app.livetv.widget.LiveTvContentFlipper android:id="@id/programsContentFlipper" android:paddingTop="@dimen/live_tv_default_padding" android:paddingBottom="@dimen/live_tv_vert_content_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

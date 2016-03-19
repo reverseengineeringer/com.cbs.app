@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/socialHolder" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/facebookButton" android:background="@null" android:layout_width="@dimen/social_icon_width" android:layout_height="@dimen/social_icon_height" android:src="@drawable/facebook_phone_ad" android:contentDescription="@string/contentDescription" />
+    <ImageButton android:id="@id/twitterButton" android:background="@null" android:layout_width="@dimen/social_icon_width" android:layout_height="@dimen/social_icon_height" android:layout_marginLeft="@dimen/live_tv_default_half_padding" android:layout_marginRight="@dimen/live_tv_default_half_padding" android:src="@drawable/twitter_phone_ad" android:contentDescription="@string/contentDescription" />
+    <ImageButton android:id="@id/googleButton" android:background="@null" android:layout_width="@dimen/social_icon_width" android:layout_height="@dimen/social_icon_height" android:layout_marginRight="12.0dip" android:src="@drawable/google_phone_ad" android:contentDescription="@string/contentDescription" />
+</LinearLayout>

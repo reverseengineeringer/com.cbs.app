@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:theme="@style/Theme.LiveTv.Light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/live_tv_horz_content_padding" android:paddingTop="@dimen/live_tv_vert_content_padding" android:paddingRight="@dimen/live_tv_horz_content_padding" android:paddingBottom="@dimen/live_tv_vert_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/CheckAvailabilityHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveTvHeaderFontBlueTextStyle" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtAgreement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_large_padding" style="@style/LiveTvSubheaderFontTextStyle" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtAgreementSub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_large_padding" android:layout_marginBottom="@dimen/live_tv_default_large_padding" style="@style/LiveTvBodyText2Style" />
+            <com.cbs.app.livetv.widget.CustomTypeFaceButton android:layout_gravity="center" android:id="@id/btnCheckAvailability" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/one_half_cbs_spacing" android:text="@string/check_availability" style="@style/LiveTvButton3Style" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/llProgressLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ProgressBar android:theme="@style/CBSPhoneStyle" android:layout_gravity="center" android:id="@id/progressBar2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_cbs_spacing" style="?android:attr/progressBarStyleLarge" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_half_padding" android:text="@string/checking_location" style="@style/LiveTvHeaderFont1TextStyle" />
+        </LinearLayout>
+        <include android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_large_padding" layout="@layout/include_questions_footer" />
+    </LinearLayout>
+</ScrollView>

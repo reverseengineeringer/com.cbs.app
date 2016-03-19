@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/dialog_width" android:layout_height="@dimen/dialog_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:linksClickable="true" android:id="@id/description_for_call_now" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_spacing" android:text="" />
+</LinearLayout>

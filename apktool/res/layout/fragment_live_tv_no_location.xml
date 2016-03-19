@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/Theme.LiveTv.Light" android:id="@id/containerNoLocation" android:paddingLeft="@dimen/live_tv_horz_content_padding" android:paddingTop="@dimen/live_tv_vert_content_padding" android:paddingRight="@dimen/live_tv_horz_content_padding" android:paddingBottom="@dimen/live_tv_vert_content_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_default_padding" android:text="@string/cant_find_location" style="@style/LiveTvHeaderFontBlueTextStyle" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_default_large_padding" android:text="@string/make_sure_share_location" style="@style/LiveTvSubheaderFontTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerVertical="true">
+            <com.cbs.app.livetv.widget.CustomTypeFaceButton android:layout_gravity="center_horizontal" android:id="@id/btnTryAgain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_default_padding" android:text="@string/try_again" style="@style/LiveTvButton1Style" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_gravity="center_horizontal" android:id="@id/txtHowLocation" android:paddingTop="@dimen/live_tv_default_large_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/how_share_location" style="@style/LiveTvLinkTextBlue2Style" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_default_large_padding" android:layout_alignParentBottom="true" layout="@layout/include_questions_footer" />
+</RelativeLayout>

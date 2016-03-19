@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtTime" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/LiveTvHeaderFont5TextStyle" />
+        <LinearLayout android:id="@id/logosContainer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imgStationLogo" android:layout_width="wrap_content" android:layout_height="@dimen/live_tv_schedule_logo_height" android:adjustViewBounds="true" />
+            <LinearLayout android:id="@id/providerLogoContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include android:id="@id/providerLogo" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/live_tv_default_half_padding" android:layout_marginRight="@dimen/live_tv_default_half_padding" layout="@layout/live_tv_horz_divider_light" />
+                <ImageView android:id="@id/imgProviderLogo" android:layout_width="wrap_content" android:layout_height="@dimen/live_tv_schedule_logo_height" android:adjustViewBounds="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtShowName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LiveTvHeaderFont6TextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtEpisodeName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LiveTvSubheaderFont2TextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtEpisodeDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_half_padding" style="@style/LiveTvBodyText5Style" />
+</LinearLayout>

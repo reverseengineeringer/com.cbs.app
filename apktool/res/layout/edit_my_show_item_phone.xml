@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/editMyShowItemPhoneLayout" android:paddingLeft="@dimen/cbs_spacing" android:paddingTop="@dimen/cbs_spacing" android:paddingRight="@dimen/cbs_spacing" android:paddingBottom="@dimen/cbs_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbImageView" android:layout_width="144.0dip" android:layout_height="84.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:contentDescription="@string/contentDescription" />
+    <LinearLayout android:orientation="vertical" android:id="@id/textHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cbs_spacing" android:layout_toLeftOf="@id/selectedIndicatorImageView" android:layout_toRightOf="@id/thumbImageView">
+        <TextView android:id="@id/titleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:textIsSelectable="false" style="@style/CBSBigText" />
+        <TextView android:id="@id/scheduleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:textIsSelectable="false" style="@style/CBSNormalGrayText" />
+    </LinearLayout>
+    <ImageView android:id="@id/selectedIndicatorImageView" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/contentDescription" />
+</RelativeLayout>

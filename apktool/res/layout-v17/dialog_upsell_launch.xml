@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/app_launch_upsell_dialog_rounded" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:id="@id/closeBtnImageView" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" android:src="@drawable/app_launch_upsell_close" android:contentDescription="@string/contentDescription" />
+    <ImageView android:layout_gravity="center" android:id="@id/anytimeLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/cbs_logo_all_access_v3" android:contentDescription="@string/contentDescription" />
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/upsellMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/backgroundImage" android:layout_width="@dimen/upsell_background_width" android:layout_height="@dimen/upsell_background_height" android:layout_marginTop="6.0dip" android:minWidth="@dimen/upsell_background_width" android:minHeight="@dimen/upsell_background_height" android:contentDescription="@string/contentDescription" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/upsellMessage2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+            <Button android:textSize="16.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/callToActionButton" android:background="@drawable/subway_button_selector" android:paddingLeft="34.0dip" android:paddingTop="4.0dip" android:paddingRight="34.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:minWidth="0.0dip" android:minHeight="0.0dip" android:includeFontPadding="false" android:fontFamily="Roboto-Medium" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/loginHolder" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:id="@id/alreadyTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/overlay_already" />
+                <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/signInTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/sign_in" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/takeTheTourTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/livetv_watch_tour" />
+            <ImageView android:layout_gravity="center" android:id="@id/takeTheTourImageView" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/app_launch_upsell_play_white" android:contentDescription="@string/contentDescription" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.widget.TextInputLayout android:id="@id/tilFirstName" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceEditText android:id="@id/edtFirstName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/firstNameHint" android:inputType="textPersonName" android:imeOptions="actionNext" android:nextFocusForward="@id/edtLastName" style="@style/LiveTvTextInputStyle" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@id/tilLastName" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceEditText android:id="@id/edtLastName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/lastNameHint" android:inputType="textPersonName" android:imeOptions="actionNext" android:nextFocusForward="@id/edtEmail" style="@style/LiveTvTextInputStyle" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@id/tilEmail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceEditText android:id="@id/edtEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/emailHint" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:nextFocusForward="@id/edtConfirmEmail" style="@style/LiveTvTextInputStyle" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout android:id="@id/tilConfirmEmail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceEditText android:id="@id/edtConfirmEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/confirmEmailHint" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:nextFocusForward="@id/edtBirthdate" style="@style/LiveTvTextInputStyle" />
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_quarter_padding">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/birthdate" style="@style/LiveTvHeaderFontBlue2TextStyle" />
+            <com.cbs.app.livetv.widget.CustomTypefaceEditText android:id="@id/edtBirthdate" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_quarter_padding" android:hint="@string/birthdate" android:inputType="date" style="@style/LiveTvTextInputStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/live_tv_default_half_padding" android:layout_weight="1.0">
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gender" style="@style/LiveTvHeaderFontBlue2TextStyle" />
+            <Spinner android:id="@id/spnGender" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_quarter_padding" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/state" style="@style/LiveTvHeaderFontBlue2TextStyle" />
+    <Spinner android:id="@id/spnState" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_quarter_padding" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+    <android.support.design.widget.TextInputLayout android:id="@id/tilZipCode" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceEditText android:id="@id/edtZipCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/zip_code" android:inputType="number" android:imeOptions="actionDone" style="@style/LiveTvTextInputStyle" />
+    </android.support.design.widget.TextInputLayout>
+</merge>

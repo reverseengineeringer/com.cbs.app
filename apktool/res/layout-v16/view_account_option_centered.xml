@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/createAccountScrollView" android:paddingBottom="@dimen/bottom_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/live_tv_horz_content_padding" android:paddingTop="@dimen/live_tv_vert_content_padding" android:paddingRight="@dimen/live_tv_horz_content_padding" android:paddingBottom="@dimen/live_tv_vert_content_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+        <TextView android:id="@id/actionCopy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/default_mycbs" style="CBSMediumGrayText" />
+        <View android:id="@id/topLine" android:background="#ffb9b9b9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="12.0dip" />
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_default_padding" android:text="@string/with_social_account" style="@style/LiveTvHeaderFontBlueTextStyle" />
+        <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/social_buttons" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding">
+            <include android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" layout="@layout/live_tv_horz_divider_light" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:gravity="center_vertical" android:paddingLeft="@dimen/live_tv_default_half_padding" android:paddingRight="@dimen/live_tv_default_half_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/divider_or" style="@style/LiveTvBodyLinkTextStyle" />
+            <include android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" layout="@layout/live_tv_horz_divider_light" />
+        </LinearLayout>
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding" android:text="@string/with_email" style="@style/LiveTvHeaderFontBlueTextStyle" />
+        <TextView android:textColor="#ffff0000" android:id="@id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_spacing" style="@style/CBSBigBlueText" />
+        <android.support.design.widget.TextInputLayout android:id="@id/textInputLayoutEmail" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="@dimen/live_tv_text_size_medium" android:textColor="@color/live_tv_text_black" android:textColorHint="@color/live_tv_text_hint_dark_theme" android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/emailHint" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:nextFocusForward="@id/password" android:fontFamily="sans-serif-light" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:id="@id/textInputLayoutPassword" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="@dimen/live_tv_text_size_medium" android:textColor="@color/live_tv_text_black" android:textColorHint="@color/live_tv_text_hint_dark_theme" android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/passwordHint" android:inputType="textPassword" android:imeOptions="actionDone" android:fontFamily="sans-serif-light" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/forgotButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/forgot_your_password" style="@style/LiveTvBodyText4Style" />
+            <com.cbs.app.livetv.widget.CustomTypeFaceButton android:layout_gravity="center_horizontal" android:id="@id/cbsSigninButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_xlarge_padding" android:minWidth="@dimen/live_tv_min_button_width" android:text="@string/sign_in2" style="@style/LiveTvButton1Style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/signinCopy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/dont_have_an_cbs_account" style="@style/LiveTvBodyLinkTextStyle" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/cbsSignupButton" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_up2" style="@style/LiveTvBodyText4Style" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

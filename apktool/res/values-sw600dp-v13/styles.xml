@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabMode">fixed</item>
+        <item name="tabGravity">center</item>
+    </style>
+    <style name="LiveTvHeaderFont2TextStyle" parent="@style/LiveTvHeaderFont1TextStyle">
+        <item name="android:textSize">@dimen/live_tv_text_size_large</item>
+        <item name="typeface">Roboto-Light.ttf</item>
+    </style>
+</resources>

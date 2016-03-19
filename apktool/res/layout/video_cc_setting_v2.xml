@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <Button android:id="@id/reset" android:background="@drawable/btn_cc_reset" android:layout_width="85.0dip" android:layout_height="25.0dip" android:layout_margin="10.0dip" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/save" android:background="@drawable/btn_cc_save" android:layout_width="85.0dip" android:layout_height="25.0dip" android:layout_margin="10.0dip" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TabHost android:id="@id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TabWidget android:id="@android:id/tabs" android:layout_width="fill_parent" android:layout_height="55.0dip" />
+        <FrameLayout android:id="@android:id/tabcontent" android:paddingTop="55.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:id="@id/tab1" android:background="#ffdbd6ce" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/font_setting" layout="@layout/cc_font_bg_setting" />
+                <Button android:id="@id/btnCCFontNamePrev" android:background="@drawable/btn_cc_prev" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="40.0dip" android:layout_below="@id/font_setting" />
+                <TextView android:textStyle="bold" android:textColor="@color/text_black" android:gravity="center_horizontal" android:id="@id/ccFontName" android:padding="5.0dip" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="@string/arial" android:layout_toRightOf="@id/btnCCFontNamePrev" android:layout_below="@id/font_setting" />
+                <Button android:id="@id/btnCCFontNameNext" android:background="@drawable/btn_cc_next" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_toRightOf="@id/ccFontName" android:layout_below="@id/font_setting" />
+                <Button android:id="@id/llCCFontSizeMinus" android:background="@drawable/btn_cc_minus_v2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_toRightOf="@id/btnCCFontNameNext" android:layout_below="@id/font_setting" />
+                <Button android:id="@id/btnCCFontSizePlus" android:background="@drawable/btn_cc_plus" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_toRightOf="@id/llCCFontSizeMinus" android:layout_below="@id/font_setting" />
+                <Button android:orientation="vertical" android:id="@id/llFontOpacityMinus" android:background="@drawable/btn_cc_minus_v2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_toRightOf="@id/btnCCFontSizePlus" android:layout_below="@id/font_setting" />
+                <Button android:id="@id/btnFontOpacityPlus" android:background="@drawable/btn_cc_plus" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_toRightOf="@id/llFontOpacityMinus" android:layout_below="@id/font_setting" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab2" android:background="#ffdbd6ce" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/text_black" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edge_effect" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/btnFontEdgeEffectNone" android:background="@drawable/btn_cc_edge_effect_none" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="20.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:id="@id/btnFontEdgeEffectRightDropShadow" android:background="@drawable/btn_cc_edge_effect_drop_shadow" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="20.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:id="@id/btnFontEdgeEffectRaised" android:background="@drawable/btn_cc_edge_effect_raised" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="20.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:id="@id/btnFontEdgeEffectDepressed" android:background="@drawable/btn_cc_edge_effect_depressed" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="20.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:id="@id/btnFontEdgeEffectUniform" android:background="@drawable/btn_cc_edge_effect_uniform" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="20.0dip" style="?android:attr/buttonBarButtonStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab3" android:background="#ffdbd6ce" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/text_black" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="@string/color" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/blueCCBackground" android:background="@drawable/round_blue_button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/redCCBackground" android:background="@drawable/round_red_button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/whiteCCBackground" android:background="@drawable/round_white_button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/yellowCCBackground" android:background="@drawable/round_yellow_button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/cyanCCBackground" android:background="@drawable/round_cyan_button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/greenCCBackground" android:background="@drawable/round_green_button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/blackCCBackground" android:background="@drawable/round_black_button_selected" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:textColor="#ffffffff" android:gravity="center" android:id="@id/purpleCCBackground" android:background="@drawable/round_purple_button" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="5.0dip" style="?android:attr/buttonBarButtonStyle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip">
+                    <TextView android:textColor="@color/text_black" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/opacity_colon" />
+                    <TextView android:textColor="@color/text_black" android:id="@id/ccBackgroundOpacity" android:paddingLeft="10.0dip" android:paddingRight="1.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:text="@string/number_75" />
+                    <TextView android:textColor="@color/text_black" android:layout_width="10.0dip" android:layout_height="40.0dip" android:text="@string/str_percent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip">
+                    <Button android:orientation="vertical" android:id="@id/llCCBackgroundOpacityMinus" android:background="@drawable/btn_cc_minus_v2" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="50.0dip" style="?android:attr/buttonBarButtonStyle" />
+                    <Button android:id="@id/btnCCBackgroundOpacityPlus" android:background="@drawable/btn_cc_plus" android:layout_width="30.0dip" android:layout_height="30.0dip" style="?android:attr/buttonBarButtonStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </TabHost>
+</LinearLayout>

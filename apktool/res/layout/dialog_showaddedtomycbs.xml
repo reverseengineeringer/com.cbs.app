@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/dialog_width" android:layout_height="240.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/tablet_dialog_titlebar" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_below="@id/titlebar">
+        <ImageView android:id="@id/showThumbnail" android:layout_width="180.0dip" android:layout_height="101.0dip" android:layout_margin="@dimen/cbs_spacing" android:layout_alignParentLeft="true" android:contentDescription="@string/contentDescription" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/showThumbnail">
+            <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_spacing" android:layout_alignParentTop="true" style="@style/CBSMediumText" />
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/cbs_spacing" android:layout_below="@id/description">
+                <Button android:id="@id/okButton" android:background="@drawable/button_grey_selector" android:paddingLeft="@dimen/cbs_small_spacing" android:paddingRight="@dimen/cbs_small_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ListView android:layout_gravity="start" android:id="@id/left_drawer" android:background="@color/dark_grey" android:paddingBottom="@dimen/drawer_bottom_padding" android:clipToPadding="false" android:layout_width="240.0dip" android:layout_height="fill_parent" android:listSelector="@drawable/drawer_list_selector" android:divider="@drawable/dark_list_divider" android:dividerHeight="0.5dip" android:choiceMode="singleChoice" android:footerDividersEnabled="true" />
+    </android.support.v4.widget.DrawerLayout>
+    <SurfaceView android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/adContainer" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_alignParentBottom="true" />
+    <com.cbs.app.cast.CBSMiniController android:id="@id/miniController1" android:background="@drawable/shadow_top" android:padding="@dimen/cbs_spacing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

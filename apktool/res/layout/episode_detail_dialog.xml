@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_schedule_dialog_containter" android:background="@color/cbs_video_thumbnail_color" android:layout_width="@dimen/schedule_dialog_width" android:layout_height="wrap_content" android:layout_margin="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/phone_dialog_new_titlebar" />
+    <TextView android:id="@id/txt_subtitle" android:text="@string/episode_dialog_subtitle" android:layout_below="@id/titlebar" style="@style/PhoneDialogsubTitleBarText" />
+    <com.cbs.app.adapter.CustomAdapterViewGroup android:id="@id/custom_schedule_viewgroup" android:layout_width="300.0dip" android:layout_height="108.0dip" android:layout_marginTop="-16.0dip" android:layout_below="@id/txt_subtitle" custom:isHorizontal="true" custom:isinfoButtonVisible="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/schedule_episode" android:background="@color/cbs_schedule_body_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/custom_schedule_viewgroup">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/schedule_episode_time" android:text="@string/latest_episode_time" style="@style/PhoneDialogEpisodeTimeBarText" />
+            <ImageView android:id="@id/new_image" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/new_indicator" />
+        </LinearLayout>
+        <TextView android:id="@id/schedule_episode_title" android:text="@string/latest_episode_title" style="@style/PhoneDialogEpisodeTitleBarText" />
+        <TextView android:id="@id/schedule_episode_description" android:text="@string/episode_description" style="@style/PhoneDialogEpisodeDescriptionText" />
+        <include layout="@layout/share_social_layout" />
+    </LinearLayout>
+    <include layout="@layout/share_button_layout" />
+</RelativeLayout>

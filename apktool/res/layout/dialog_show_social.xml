@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/soft_grey" android:layout_width="@dimen/phone_dialog_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/phone_dialog_titlebar" />
+    <LinearLayout style="@style/PhoneDialogBody">
+        <Button android:id="@id/fb_share" android:text="@string/like_show_fb" style="@style/PhoneDialogBodyButtonFacebook" />
+        <Button android:id="@id/tw_share" android:text="@string/follow_show_tw" style="@style/PhoneDialogBodyButtonTwitter" />
+        <Button android:id="@id/email_share" android:text="@string/email_show" style="@style/PhoneDialogBodyButtonEmail" />
+        <Button android:id="@id/addToMycbs" android:visibility="gone" android:text="@string/add_show_mycbs" style="@style/PhoneDialogBodyButtonMyCBS" />
+        <Button android:id="@id/addToCalendar" android:text="@string/add_show_calendar" style="@style/PhoneDialogBodyButtonCalendar" />
+    </LinearLayout>
+</RelativeLayout>

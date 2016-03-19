@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/listHolderLayout" android:background="@drawable/radiant_white_right_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/tempHolder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/videoFilterSpinnerV2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cbs_spacing" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+            <TextView android:textStyle="bold" android:id="@id/defaultSeason" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Season 1" style="@style/CBSSpinnerStyle" />
+        </RelativeLayout>
+        <TextView android:id="@id/textView" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/videoFilterSpinnerV2" android:layout_alignParentTop="true" android:layout_centerInParent="true" android:textIsSelectable="false" />
+    </RelativeLayout>
+    <ListView android:id="@id/showVideoGrid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tempHolder" android:footerDividersEnabled="false" />
+    <TextView android:id="@id/emptyView" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_videos" android:layout_below="@id/tempHolder" />
+</RelativeLayout>

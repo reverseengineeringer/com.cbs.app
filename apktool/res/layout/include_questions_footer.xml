@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/llQuestionsFooter" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/questions" style="@style/LiveTvHeaderFont1TextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypeFaceButton android:id="@id/btnReadFaq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_half_padding" android:text="@string/read_our_faq" style="@style/LiveTvButton3Style" />
+</LinearLayout>

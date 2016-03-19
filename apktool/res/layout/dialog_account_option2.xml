@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/createAccountScrollView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:minWidth="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true" android:weightSum="1.0">
+        <TextView android:id="@id/actionCopy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/default_mycbs" style="CBSMediumGrayText" />
+        <View android:id="@id/topLine" android:background="#ffb9b9b9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="12.0dip" />
+        <TextView android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/with_social" style="@style/CBSBiggerText2" />
+        <include android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" layout="@layout/social_buttons" />
+        <View android:background="#ffb9b9b9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="12.0dip" />
+        <TextView android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/with_email2" style="@style/CBSBiggerText2" />
+        <TextView android:textColor="#ffff0000" android:id="@id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/cbs_spacing" style="@style/CBSBigBlueText" />
+        <EditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:hint="@string/emailHint" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:nextFocusForward="@id/password" />
+        <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:hint="@string/passwordHint" android:inputType="textPassword" android:imeOptions="actionDone" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:weightSum="1.0" android:minWidth="350.0dip">
+            <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff155ba1" android:id="@id/forgotButton" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/forgot_password2" android:singleLine="true" android:layout_weight="0.5" style="?android:attr/buttonBarStyle" />
+            <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="right" android:id="@id/cbsSigninButton" android:background="@drawable/subway_button_selector" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/sign_in2" android:singleLine="true" android:layout_weight="0.5" style="?android:attr/buttonBarStyle" />
+        </LinearLayout>
+        <View android:id="@id/bottomLine" android:background="#ffb9b9b9" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="12.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+            <TextView android:id="@id/signinCopy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/dont_have_an_account" android:layout_toLeftOf="@id/cbsSignupButton" style="@style/CBSBiggerText2" />
+            <Button android:id="@id/cbsSignupButton" android:background="@drawable/button_grey_selector" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/sign_up2" android:singleLine="true" android:layout_alignParentRight="true" style="?android:attr/buttonBarStyle" />
+        </RelativeLayout>
+        <View android:id="@id/spacer" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+    </LinearLayout>
+</ScrollView>

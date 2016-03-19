@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.LiveTv.Dark" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ivVideoThumbnail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+        <ImageView android:layout_gravity="bottom|center|left" android:paddingLeft="@dimen/live_tv_default_half_padding" android:paddingBottom="@dimen/live_tv_default_half_padding" android:layout_width="@dimen/live_tv_video_upsell_play_icon_size" android:layout_height="@dimen/live_tv_video_upsell_play_icon_size" android:src="@drawable/play_icon" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/grey_background" android:paddingLeft="@dimen/live_tv_default_half_padding" android:paddingRight="@dimen/live_tv_default_half_padding" android:paddingBottom="@dimen/live_tv_default_quarter_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:textColor="@color/white" android:id="@id/tvShowName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/ivAffilateLogo" android:layout_alignParentRight="false" style="@style/LiveTvHeaderFontTextStyle" />
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:textColor="@color/white" android:id="@id/tvSeasonLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/LiveTvHeaderFontTextStyle" />
+    </LinearLayout>
+</LinearLayout>

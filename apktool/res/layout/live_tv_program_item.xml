@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.LiveTv.Dark" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_default_half_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/provider_search_bg" android:paddingLeft="@dimen/live_tv_default_half_padding" android:paddingTop="@dimen/live_tv_default_quarter_padding" android:paddingBottom="@dimen/live_tv_default_quarter_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/line_size">
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_medium" android:textStyle="bold" android:textColor="@color/white" android:id="@id/txtAffilateName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/live_tv_default_half_padding" android:layout_centerVertical="true" android:textAllCaps="true" style="@style/LiveTvHeaderFont3TextStyle" />
+        <ImageView android:id="@id/ivAffilateLogo" android:layout_width="wrap_content" android:layout_height="@dimen/live_tv_text_size_medium" android:layout_marginLeft="@dimen/live_tv_default_half_padding" android:scaleType="fitCenter" android:layout_toRightOf="@id/txtAffilateName" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/llProgramsContainer" android:background="@color/provider_search_bg" android:paddingTop="@dimen/live_tv_default_half_padding" android:paddingRight="@dimen/live_tv_default_half_padding" android:paddingBottom="@dimen/live_tv_default_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

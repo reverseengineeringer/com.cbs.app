@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/titlebar" style="@style/TabletDialogTitleBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_title" android:text="@string/default_title" style="@style/TabletDialogTitleBarText" />
+    <View android:id="@id/vertical_divider" android:layout_toLeftOf="@id/button_close" style="@style/TabletDialogTitleVerticalDivider" />
+    <Button android:id="@id/button_close" style="@style/TabletDialogTitleClose" />
+</RelativeLayout>

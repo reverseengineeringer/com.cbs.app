@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cbs.app.livetv.widget.CustomTypefaceTextView android:theme="@style/Theme.LiveTv.Light" android:gravity="center" android:layout_gravity="center" android:id="@id/txtLiveTvMessage" android:background="@color/live_tv_white" android:padding="@dimen/live_tv_default_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/msg_error_default" style="@style/LiveTvBodyText2Style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

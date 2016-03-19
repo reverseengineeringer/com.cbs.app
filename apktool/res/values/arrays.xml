@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="abtype_array">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_color_names">
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Blue</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_color_values">
+        <item>\#FFFFFF</item>
+        <item>\#000000</item>
+        <item>\#FF0000</item>
+        <item>\#FFFF00</item>
+        <item>\#00FF00</item>
+        <item>\#00FFFF</item>
+        <item>\#0000FF</item>
+        <item>\#FF00FF</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_edge_type_names">
+        <item>None</item>
+        <item>Outline</item>
+        <item>Drop Shadow</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_edge_type_values">
+        <item>EDGE_TYPE_NONE</item>
+        <item>EDGE_TYPE_OUTLINE</item>
+        <item>EDGE_TYPE_DROP_SHADOW</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_family_names">
+        <item>San-serif</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_family_values">
+        <item>FONT_FAMILY_SANS_SERIF</item>
+        <item>FONT_FAMILY_SERIF</item>
+        <item>FONT_FAMILY_MONOSPACED_SANS_SERIF</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_scale_names">
+        <item>Very Small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very Large</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_font_scale_values">
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_opacity_names">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="ccl_prefs_caption_opacity_values">
+        <item>3F</item>
+        <item>80</item>
+        <item>BF</item>
+        <item>FF</item>
+    </string-array>
+    <string-array name="chromecast_ids">
+        <item></item>
+        <item>default</item>
+        <item>0BBDC217</item>
+        <item>6FBEFD7B</item>
+        <item>5A107213</item>
+        <item>00541A3A</item>
+        <item>EB6347AF</item>
+    </string-array>
+    <string-array name="colorString">
+        <item>white</item>
+        <item>black</item>
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>magenta</item>
+        <item>cyan</item>
+    </string-array>
+    <string-array name="colorStringValue">
+        <item>16777215</item>
+        <item>0</item>
+        <item>16711680</item>
+        <item>65280</item>
+        <item>255</item>
+        <item>16776960</item>
+        <item>12277397</item>
+        <item>558497</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>United States</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="debugwebtabs">
+        <item>Videos</item>
+        <item>Photos</item>
+        <item>Cast</item>
+        <item>Connect</item>
+    </string-array>
+    <string-array name="edgeTypeString">
+        <item>NONE</item>
+        <item>RAISED</item>
+        <item>DEPRESSED</item>
+        <item>UNIFORM</item>
+        <item>LEFT_DROP_SHADOW</item>
+        <item>RIGHT_DROP_SHADOW</item>
+    </string-array>
+    <string-array name="edgeTypeStringValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="fontNames">
+        <item>Arial</item>
+        <item>Courier</item>
+        <item>Coronet</item>
+        <item>Dom</item>
+        <item>Gothic</item>
+        <item>Helvetica</item>
+        <item>Times New Roman</item>
+    </string-array>
+    <string-array name="genders">
+        <item></item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+    <string-array name="liveTV_array">
+        <item>https://cbsservice.aws.syncbak.com</item>
+        <item>https://qa-cbsservice.aws.syncbak.com</item>
+        <item>https://stage-cbsservice.aws.syncbak.com</item>
+        <item>https://temp-cbsservice.aws.syncbak.com</item>
+    </string-array>
+    <string-array name="location_array">
+        <item>Use Real Location</item>
+        <item>Custom Location</item>
+        <item>Denver KCNC</item>
+        <item>Los Angeles KCBS</item>
+        <item>San Francisco KPIX</item>
+        <item>New York</item>
+        <item>Chicago</item>
+        <item>Pittsburg</item>
+        <item>Sacramento</item>
+        <item>Fort Worth</item>
+        <item>Philadelphia</item>
+        <item>Boston</item>
+        <item>Mineapolis</item>
+        <item>Miami</item>
+        <item>Baltimore</item>
+        <item>Detroit</item>
+        <item>Waco KWTX</item>
+        <item>College Station, TX KBTX</item>
+        <item>Monroe, LA KNOE</item>
+        <item>Orlando, FL WKMG</item>
+        <item>Timbaktu</item>
+    </string-array>
+    <string-array name="location_latitude_array">
+        <item></item>
+        <item></item>
+        <item>39.733029</item>
+        <item>34.20</item>
+        <item>37.78</item>
+        <item>40.67</item>
+        <item>41.8819</item>
+        <item>40.44288</item>
+        <item>38.592516</item>
+        <item>32.76168</item>
+        <item>39.961849</item>
+        <item>42.36484</item>
+        <item>44.973008</item>
+        <item>25.789934</item>
+        <item>39.334431</item>
+        <item>42.488848</item>
+        <item>31.549333</item>
+        <item>31.512551</item>
+        <item>32.527459</item>
+        <item>28.593526</item>
+        <item>84.20</item>
+    </string-array>
+    <string-array name="location_longitude_array">
+        <item></item>
+        <item></item>
+        <item>-104.985801</item>
+        <item>-118.37</item>
+        <item>-122.416</item>
+        <item>-73.94</item>
+        <item>-87.62</item>
+        <item>-80.005437</item>
+        <item>-121.546355</item>
+        <item>-97.243531</item>
+        <item>-75.164415</item>
+        <item>-71.133364</item>
+        <item>-93.274822</item>
+        <item>-80.34111</item>
+        <item>-76.651355</item>
+        <item>-83.304451</item>
+        <item>-97.14667</item>
+        <item>-97.193604</item>
+        <item>-92.102529</item>
+        <item>-81.420065</item>
+        <item>-148.37</item>
+    </string-array>
+    <string-array name="phone_menu_items">
+        <item>Home</item>
+        <item>Shows</item>
+        <item>Live TV</item>
+        <item>Schedule</item>
+        <item>My CBS</item>
+        <item>Share This App</item>
+        <item>Settings</item>
+        <item>Like</item>
+        <item>Follow</item>
+        <item>CBS Sync</item>
+        <item>Connect Live</item>
+    </string-array>
+    <string-array name="planets_array">
+        <item></item>
+        <item>http://stage-apps.cbs.com</item>
+        <item>http://www.cbs.com</item>
+        <item>http://preview.cbs.com</item>
+        <item>http://stage.cbs.com</item>
+        <item>http://shadow.cbs.com</item>
+        <item>http://test-www.cbs.com</item>
+        <item>http://branch-sf4.cbs.com</item>
+    </string-array>
+    <string-array name="show_specific_fragments">
+        <item>fragment_show_videos</item>
+        <item>fragment_show_photos</item>
+        <item>fragment_show_cast</item>
+        <item>fragment_show_connect</item>
+    </string-array>
+    <string-array name="state_arrays">
+        <item>Select State</item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Iowa</item>
+        <item>Indiana</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+        <item>American Samoa</item>
+        <item>District of Columbia</item>
+        <item>Guam</item>
+        <item>Northern Mariana Islands</item>
+        <item>Puerto Rico</item>
+        <item>United States Virgin Islands</item>
+    </string-array>
+    <string-array name="state_arrays2">
+        <item>Select State</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DC</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IA</item>
+        <item>IN</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VA</item>
+        <item>VT</item>
+        <item>WA</item>
+        <item>WI</item>
+        <item>WV</item>
+        <item>AS</item>
+        <item>DC</item>
+        <item>GU</item>
+        <item>MP</item>
+        <item>PR</item>
+        <item>VI</item>
+    </string-array>
+    <string-array name="states">
+        <item></item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Iowa</item>
+        <item>Indiana</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+        <item>American Samoa</item>
+        <item>District of Columbia</item>
+        <item>Guam</item>
+        <item>Northern Mariana Islands</item>
+        <item>Puerto Rico</item>
+        <item>United States Virgin Islands</item>
+    </string-array>
+</resources>

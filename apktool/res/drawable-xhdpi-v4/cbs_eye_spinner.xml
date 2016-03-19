@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/cbs_eye_spinner_grey_bg">
+        <size android:height="128.0dip" android:width="128.0dip" />
+    </item>
+    <item>
+        <rotate android:fromDegrees="0.0" android:toDegrees="360.0" android:pivotX="50.0%" android:pivotY="50.0%">
+            <shape android:shape="ring" android:useLevel="false" android:innerRadius="12.0dip" android:thickness="5.0dip">
+                <size android:height="60.0dip" android:width="60.0dip" />
+                <gradient android:startColor="@android:color/transparent" android:endColor="#ff000000" android:useLevel="false" android:angle="0.0" android:type="sweep" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

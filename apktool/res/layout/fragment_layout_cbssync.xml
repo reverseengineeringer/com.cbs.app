@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fragmentCbsSync" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/liveFyreButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveFyreTest" />
+    <Button android:id="@id/btnFbTest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fbtest" />
+    <Button android:id="@id/btnTWTest" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/twtest" />
+    <TextView android:layout_gravity="center" android:id="@id/textViewCbsSync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" />
+    <View android:layout_gravity="center" android:background="@color/black" android:layout_width="400.0dip" android:layout_height="400.0dip" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:theme="@style/Theme.LiveTv.Light" android:paddingLeft="@dimen/live_tv_horz_content_padding" android:paddingTop="@dimen/live_tv_vert_content_padding" android:paddingRight="@dimen/live_tv_horz_content_padding" android:paddingBottom="@dimen/live_tv_vert_content_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/not_authz_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sorry_mvpd_user_not_authorized" style="@style/LiveTvHeaderFontBlueTextStyle" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/but_can_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_half_padding" android:text="@string/but_can_sign_up" style="@style/LiveTvSubheaderFontTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/live_tv_not_supported_upsell_left_margin" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_large_padding" android:layout_marginBottom="@dimen/live_tv_default_padding">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/live_tv_default_padding" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="20.0dip" android:src="@drawable/cbsaa_logo_grey" android:adjustViewBounds="true" />
+                    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding" android:text="@string/upsell_watch_live_tv" style="@style/LiveTvBodyText2Style" />
+                    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:id="@id/episode_in_demand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_item_spacing" android:text="@string/upsell_episodes_on_demand" style="@style/LiveTvBodyText2Style" />
+                    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_item_spacing" android:text="@string/upsell_new_episodes_next_day" style="@style/LiveTvBodyText2Style" />
+                </LinearLayout>
+                <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+                    <com.cbs.app.livetv.widget.CustomTypeFaceButton android:textSize="@dimen/live_tv_text_size_extra_small" android:id="@id/btnTryOneWeekFree" android:visibility="gone" android:layout_width="144.0dip" android:layout_height="wrap_content" android:text="@string/try_one_week_free" style="@style/LiveTvButton1Style" />
+                    <com.cbs.app.livetv.widget.CustomTypeFaceButton android:textSize="@dimen/live_tv_text_size_extra_small" android:id="@id/btnTakeATour" android:layout_width="144.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding" android:text="@string/take_a_quick_tour" style="@style/LiveTvButton3Style" />
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/live_tv_horz_divider_light" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:layout_gravity="right" android:id="@id/txtAlreadyHaveAnAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding" android:layout_marginRight="4.0dip" android:text="@string/already_have_an_cbs_account" style="@style/LiveTvBodyText2Style" />
+        </LinearLayout>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/include_questions_footer" />
+    </LinearLayout>
+</ScrollView>

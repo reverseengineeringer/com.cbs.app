@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/soft_grey" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/settingsMenuHolder" android:layout_width="200.0dip" android:layout_height="fill_parent" />
+        <View android:id="@id/lineView1" android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toRightOf="@id/settingsMenuHolder" />
+        <FrameLayout android:id="@id/settingsContentHolder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/lineView1" />
+    </RelativeLayout>
+</RelativeLayout>

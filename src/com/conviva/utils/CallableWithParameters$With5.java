@@ -1,0 +1,12 @@
+package com.conviva.utils;
+
+public abstract interface CallableWithParameters$With5<T1, T2, T3, T4, T5>
+{
+  public abstract void exec(T1 paramT1, T2 paramT2, T3 paramT3, T4 paramT4, T5 paramT5);
+}
+
+/* Location:
+ * Qualified Name:     com.conviva.utils.CallableWithParameters.With5
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

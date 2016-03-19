@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="live_tv_not_available_spacing">24.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="abc_search_view_text_min_width">192.0dip</dimen>
+    <dimen name="bar_left_margin">6.0dip</dimen>
+    <dimen name="button_min_height">56.0dip</dimen>
+    <dimen name="button_text_size">18.0sp</dimen>
+    <dimen name="cast_right_list_width">300.0dip</dimen>
+    <dimen name="cbstext_big_font_size">16.0sp</dimen>
+    <dimen name="cbstext_bigger_font_size">20.0sp</dimen>
+    <dimen name="cbstext_biggest_font_size">60.0sp</dimen>
+    <dimen name="cbstext_dialog_font_size">16.0sp</dimen>
+    <dimen name="cbstext_margin_left">5.0dip</dimen>
+    <dimen name="cbstext_medium_font_size">14.0sp</dimen>
+    <dimen name="cbstext_normal_font_size">12.0sp</dimen>
+    <dimen name="cbstext_small_font_size">10.0sp</dimen>
+    <dimen name="dialog_height">460.0dip</dimen>
+    <dimen name="dialog_height2">420.0dip</dimen>
+    <dimen name="dialog_title_height">60.0dip</dimen>
+    <dimen name="dialog_width">400.0dip</dimen>
+    <dimen name="dialog_width2">300.0dip</dimen>
+    <dimen name="dialog_width_wide">450.0dip</dimen>
+    <dimen name="iab_message_size">20.0sp</dimen>
+    <item type="dimen" name="left_nav_percent">0.34</item>
+    <dimen name="line_size">1.0dip</dimen>
+    <dimen name="list_image_height">81.0dip</dimen>
+    <dimen name="list_image_width">144.0dip</dimen>
+    <dimen name="liveTVUpsell_icon_text_width">150.0dip</dimen>
+    <dimen name="liveTVmap_landscape_height">340.0dip</dimen>
+    <dimen name="liveTVmap_landscape_width">325.0dip</dimen>
+    <dimen name="liveTVmap_prtrait_height">250.0dip</dimen>
+    <dimen name="liveTVmap_prtrait_width">280.0dip</dimen>
+    <dimen name="live_tv_horizontal_margin">32.0dip</dimen>
+    <dimen name="live_tv_medium_spacing">20.0sp</dimen>
+    <dimen name="live_tv_small_spacing">12.0dip</dimen>
+    <dimen name="live_tv_small_text_size">16.0sp</dimen>
+    <dimen name="menu_item_height">52.0dip</dimen>
+    <dimen name="menu_item_textSize">20.0sp</dimen>
+    <dimen name="nielson_dialog_cond_text_font">28.0sp</dimen>
+    <dimen name="nielson_dialog_msg_text_font">26.0sp</dimen>
+    <dimen name="overlay_text_size">16.0sp</dimen>
+    <dimen name="padding">16.0dip</dimen>
+    <dimen name="phone_dialog_new_email_button_width">160.0dip</dimen>
+    <dimen name="phone_dialog_new_fb_button_width">160.0dip</dimen>
+    <dimen name="phone_dialog_new_tw_button_width">80.0dip</dimen>
+    <dimen name="phone_dialog_width">280.0dip</dimen>
+    <dimen name="play_image_height">30.0dip</dimen>
+    <dimen name="play_image_width">30.0dip</dimen>
+    <dimen name="pop_up_title_font_size">24.0sp</dimen>
+    <dimen name="push_margin">6.0dip</dimen>
+    <dimen name="push_top_bottom_margins">64.0dip</dimen>
+    <dimen name="schedule_dialog_description_height">120.0dip</dimen>
+    <dimen name="schedule_dialog_height">460.0dip</dimen>
+    <dimen name="schedule_dialog_width">400.0dip</dimen>
+    <dimen name="splash_tonight_text_size">15.0sp</dimen>
+    <dimen name="svod_title_size">32.0sp</dimen>
+    <dimen name="tab_font_size">14.0sp</dimen>
+    <dimen name="tab_margin">1.0dip</dimen>
+    <dimen name="title_text_dialog_width">310.0dip</dimen>
+    <dimen name="upsell_background_height">408.0dip</dimen>
+    <dimen name="upsell_background_width">362.0dip</dimen>
+    <dimen name="upsell_dialog_width">492.0dip</dimen>
+    <dimen name="captchaWebviewHeight">200.0dip</dimen>
+    <dimen name="cbstext_kindle_bigger_font_size">22.0sp</dimen>
+    <dimen name="cbstext_margin">0.0dip</dimen>
+    <dimen name="cbstext_padding">0.0dip</dimen>
+    <dimen name="dialog_height3">400.0dip</dimen>
+    <dimen name="dialog_width3">300.0dip</dimen>
+    <dimen name="liveTVmap_prtrait_width_kindle">250.0dip</dimen>
+    <dimen name="middle_image_height">400.0dip</dimen>
+    <dimen name="middle_image_width">300.0dip</dimen>
+    <dimen name="overlay_left_margin">160.0px</dimen>
+    <dimen name="phone_dialog_height">320.0dip</dimen>
+    <dimen name="space_between_alreadyhave_signIn">5.0dip</dimen>
+    <dimen name="space_between_alredyhave_signin_port">0.0dip</dimen>
+    <dimen name="space_between_checkbtn_trybtn">5.0dip</dimen>
+    <dimen name="space_between_checkbtn_trybtn_port">0.0dip</dimen>
+    <dimen name="space_between_horizline_wherelivetv">3.0dip</dimen>
+    <dimen name="space_between_ondemand_watchnew">0.0dip</dimen>
+    <dimen name="space_between_overepisodes_multid">0.0dip</dimen>
+    <dimen name="space_between_seeif_checkbtn">5.0dip</dimen>
+    <dimen name="space_between_seeif_checkin_port">0.0dip</dimen>
+    <dimen name="space_between_signIn_horizline">20.0dip</dimen>
+    <dimen name="space_between_signinport_where_port">30.0dip</dimen>
+    <dimen name="space_between_trybtn_alredyhave">20.0dip</dimen>
+    <dimen name="space_between_trybtn_alredyhave_port">30.0dip</dimen>
+    <dimen name="space_between_watchLive_seeif">10.0dip</dimen>
+    <dimen name="space_between_watchnew_overepisodes">0.0dip</dimen>
+    <dimen name="space_between_where_horline_port">20.0dip</dimen>
+</resources>

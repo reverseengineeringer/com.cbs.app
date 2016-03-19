@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.LiveTv.Dark" android:orientation="vertical" android:id="@id/livetv_list_item" android:paddingLeft="@dimen/live_tv_default_padding" android:paddingRight="@dimen/live_tv_default_quarter_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:textStyle="bold" android:id="@id/txtProgramTime" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveTvLinkTextBlue2Style" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:textStyle="bold" android:id="@id/txtShowName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/line_size" style="@style/LiveTvSubheaderFontTextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:textSize="@dimen/live_tv_text_size_extra_small" android:ellipsize="end" android:id="@id/txtProgramTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/line_size" android:maxLines="2" style="@style/LiveTvSubheaderFontTextStyle" />
+</LinearLayout>

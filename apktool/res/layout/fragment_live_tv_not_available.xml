@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:theme="@style/Theme.LiveTv.Light" android:scrollbarStyle="outsideOverlay" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/not_available" android:paddingLeft="@dimen/live_tv_horizontal_margin" android:paddingTop="@dimen/live_tv_vert_content_padding" android:paddingRight="@dimen/live_tv_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/live_tv_sorry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_small_spacing" android:text="@string/verify_live_tv_not_available" style="@style/LiveTvHeaderFontBlueTextStyle" />
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/live_tv_check_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/check_back_soon" style="@style/LiveTvHeaderFont1TextStyle" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_small_spacing">
+            <android.support.v7.widget.RecyclerView android:id="@id/rvVideos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/live_tv_not_avail_rv_upsell_margin" android:layout_marginRight="@dimen/live_tv_not_avail_rv_upsell_margin" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/live_tv_get_notified_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_tv_small_spacing" android:text="@string/get_notified_live_tv_short" style="@style/LiveTvSubheaderFontTextStyle" />
+            <com.cbs.app.livetv.widget.CustomTypeFaceButton android:id="@id/btnGetNotified" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_notified" style="@style/LiveTvButton1Style" />
+        </LinearLayout>
+        <include android:layout_gravity="center_horizontal" android:id="@id/included_faq" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/include_questions_footer" />
+    </LinearLayout>
+</ScrollView>

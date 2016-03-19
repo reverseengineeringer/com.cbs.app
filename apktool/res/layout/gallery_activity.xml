@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/adButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <com.cbs.app.widget.TouchTimeoutParent android:orientation="vertical" android:id="@id/touchHolderLayout" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ru.truba.touchgallery.GalleryWidget.GalleryViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/infoHolder" android:background="#88000000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignBottom="@id/pager">
+            <ImageButton android:id="@id/expandButton" android:background="#00000000" android:clickable="true" android:layout_width="32.0dip" android:layout_height="27.0dip" android:src="@drawable/btn_arrow_pointup" android:layout_alignParentRight="true" android:contentDescription="@string/expand_contract" />
+            <RelativeLayout android:id="@id/textHolder" android:background="#00000000" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/expandButton">
+                <TextView android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/title" android:background="#00000000" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="2" android:textIsSelectable="true" />
+                <TextView android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/description" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="10" android:layout_below="@id/title" android:textIsSelectable="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.cbs.app.widget.TouchTimeoutParent>
+</LinearLayout>

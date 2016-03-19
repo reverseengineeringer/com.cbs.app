@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:theme="@style/Theme.LiveTv.Light" android:orientation="vertical" android:id="@id/scrollView" android:background="@color/live_tv_white" android:paddingBottom="@dimen/live_tv_ad_banner_buffer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/live_tv_horz_content_padding" android:paddingTop="@dimen/live_tv_vert_content_padding" android:paddingRight="@dimen/live_tv_horz_content_padding" android:paddingBottom="@dimen/live_tv_vert_content_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_complete_registration" style="@style/LiveTvHeaderFontBlueTextStyle" />
+        <include layout="@layout/social_sign_up_form" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_padding">
+            <CheckBox android:gravity="top" android:id="@id/chkAccountAgreement" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtAccountAgreement" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/live_tv_default_half_padding" android:text="@string/account_agreement" android:layout_weight="1.0" style="@style/LiveTvBodyLinkTextStyle" />
+        </LinearLayout>
+        <com.cbs.app.livetv.widget.CustomTypeFaceButton android:layout_gravity="center_horizontal" android:id="@id/btnCompleteRegistration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_xlarge_padding" android:minWidth="@dimen/live_tv_min_button_width" android:text="@string/complete_registration" style="@style/LiveTvButton1Style" />
+        <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_gravity="center_horizontal" android:id="@id/txtRegisterLater" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_tv_default_xlarge_padding" android:text="@string/register_later" style="@style/LiveTvBodyText4Style" />
+    </LinearLayout>
+</ScrollView>

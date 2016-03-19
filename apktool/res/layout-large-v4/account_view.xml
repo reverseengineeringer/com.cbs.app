@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/cbs_spacing" android:paddingTop="@dimen/cbs_spacing" android:paddingRight="@dimen/cbs_spacing" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cbsUserId" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" />
+    <TextView android:id="@id/accountText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cbs_spacing" android:layout_below="@id/cbsUserId" />
+    <TextView android:id="@id/firstName" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/accountText" android:textIsSelectable="false" />
+    <TextView android:id="@id/lastName" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/firstName" android:textIsSelectable="false" />
+    <Button android:id="@id/logoutButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_out" android:layout_below="@id/lastName" android:textIsSelectable="false" />
+    <TextView android:id="@id/billing_info" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/billing_info" android:layout_below="@id/logoutButton" android:textIsSelectable="false" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_item_selector" android:paddingLeft="@dimen/cbs_spacing" android:paddingTop="@dimen/cbs_spacing" android:paddingRight="@dimen/cbs_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left|top" android:id="@id/image" android:background="@android:color/white" android:padding="2.0dip" android:clickable="false" android:layout_width="200.0dip" android:layout_height="150.0dip" android:scaleType="centerCrop" android:cropToPadding="true" android:contentDescription="@string/cast_image" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/text_black" android:layout_gravity="left" android:id="@id/name" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cbs_spacing" android:textIsSelectable="false" />
+    <TextView android:id="@id/characterName" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/CBSNormalText" />
+</LinearLayout>

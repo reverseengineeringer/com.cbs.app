@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/provider_containger_bg" android:layout_width="fill_parent" android:layout_height="83.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ivProviderLogo" android:background="?selectableItemBackground" android:padding="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:ellipsize="end" android:gravity="center" android:id="@id/tvProviderName" android:background="?selectableItemBackground" android:paddingLeft="@dimen/live_tv_default_padding" android:paddingRight="@dimen/live_tv_default_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/more_providers_coming_soon" android:maxLines="2" style="@style/LiveTvBodyText3Style" />
+</FrameLayout>

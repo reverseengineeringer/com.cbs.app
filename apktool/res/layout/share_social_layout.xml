@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/social_share_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/phone_dialog_button_new_height" android:layout_below="@id/description_scroll_view"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/new_fb" style="@style/PhoneDialogNewFacebookButton" />
+    <View android:id="@id/first_vertical_divider" android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <Button android:id="@id/new_tw" style="@style/PhoneDialogNewTwitterButton" />
+    <View android:id="@id/second_vertical_divider" android:background="@android:color/darker_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <Button android:id="@id/new_email" style="@style/PhoneDialogNewEmailButton" />
+</LinearLayout>

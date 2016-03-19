@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/channel_listview_selector" android:padding="@dimen/double_cbs_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/channelImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/cbs_spacing" android:minWidth="90.0dip" android:minHeight="90.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/contentDescription" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:minHeight="90.0dip" android:layout_weight="0.2">
+        <TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="@drawable/channel_text_selector" android:id="@id/channelTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/channelImage" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="26.0sp" android:textColor="@drawable/channel_text_selector" android:id="@id/channelLocation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</LinearLayout>

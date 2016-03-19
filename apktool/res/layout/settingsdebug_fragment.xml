@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left|top" android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/cbs_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/debug_Push_channelId_lable" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <Button android:id="@id/debug_user_channel_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+        <Button android:id="@id/kochava_attribution" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="click to share" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Kochava Device Id" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <Button android:id="@id/kochava_device_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="click to share" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="android_id" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <Button android:id="@id/android_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="click to share" />
+        <TextView android:id="@id/labelAbType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/debug_instruct" android:textIsSelectable="false" style="@style/CBSMediumGrayText" />
+        <Button android:id="@id/flushCacheNow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/Flush_Response_Cache" />
+        <Button android:id="@id/crashAppNow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/crash_the_app_now" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_location_label" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <Spinner android:id="@id/userLocation" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Latitude" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <EditText android:id="@id/latitude_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="latitude (-90.00 to +90.00) South is negative" android:inputType="numberDecimal|numberSigned" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Longitude" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <EditText android:id="@id/longitude_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter longitude (-180.00 to +180.00) West is negative" android:inputType="numberDecimal|numberSigned" />
+        <Button android:id="@id/submit_lat_long" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit Custom Lat/Long" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Select LiveTv Environment" />
+        <Spinner android:id="@id/live_tv_environment_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" />
+        <TextView android:id="@id/anotherLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abtype_label" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <Spinner android:id="@id/abSpinner" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+        <TextView android:id="@id/label_appsecret" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/AppSecret" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <EditText android:id="@id/appsecret" android:padding="8.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:singleLine="true" android:inputType="textNoSuggestions" />
+        <TextView android:id="@id/label_appsecret2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Debug_URL" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <EditText android:id="@id/base_uri" android:padding="8.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:singleLine="true" android:inputType="text" />
+        <Spinner android:id="@id/planets_spinner" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+        <TextView android:id="@id/label_useCache" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Use_Response_Cache" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <CheckBox android:id="@id/useResponseCacheCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Show_Analytics_Events" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <CheckBox android:id="@id/showAnalyticsEventsCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="false" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/player_max_buffer_time" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <EditText android:id="@id/playerMaxBufferEditText" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:singleLine="true" android:inputType="number" />
+        <SeekBar android:id="@id/seekBar1" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:max="100" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/max_bitrate" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <SeekBar android:id="@id/seekBar2" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:max="100" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/max_bitrate_guess" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <TextView android:id="@id/bitrateValue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:textIsSelectable="true" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unicor_uat" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <CheckBox android:id="@id/unicornUAT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="false" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Default Installer Package" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <TextView android:id="@id/defaultInstallerPackage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="" android:textIsSelectable="false" style="@style/CBSNormalBoldText" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/installer_package" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/radioInstallerPackage" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+            <RadioButton android:textSize="6.0pt" android:textStyle="bold" android:id="@id/radioGoogleInstaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/google" />
+            <RadioButton android:textSize="6.0pt" android:textStyle="bold" android:id="@id/radioAmazonInstaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amazon" />
+            <RadioButton android:textSize="6.0pt" android:textStyle="bold" android:id="@id/radioDefaultInstaller" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/default2" />
+        </RadioGroup>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Use Debug Conviva (checked is yes)" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <CheckBox android:id="@id/useDebugConviva" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="false" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Use Debug MDialog (checked is yes)" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <CheckBox android:id="@id/useDebugMDialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="false" />
+        <TextView android:id="@id/lable_use_https" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/use_https" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <CheckBox android:id="@id/useHttpsCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="true" />
+        <TextView android:id="@id/label_chromecast_id" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Chromecast App ID" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <EditText android:id="@id/chromecast_id" android:padding="8.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:singleLine="true" android:inputType="text" />
+        <Spinner android:id="@id/chromecast_id_spinner" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Use Chromecast VOD Video Override" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <CheckBox android:id="@id/useCCVodOverride" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="false" />
+        <EditText android:id="@id/ccVodOverride" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:singleLine="true" android:inputType="textUri" />
+        <Button android:id="@id/submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text="@string/submit" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MVPD" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <Button android:id="@id/mvpdButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text="" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/deep_link_test" android:textIsSelectable="false" style="@style/CBSBiggerBlueText" />
+        <EditText android:id="@id/deepLink" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:inputType="text" />
+        <Button android:id="@id/submitDeepLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text="@string/submit_deep_link" />
+        <Button android:id="@id/btnDemoVideo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:text="@string/play_demo_video" />
+        <Button android:id="@id/startSigninButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_marginBottom="36.0dip" android:text="@string/start_web_login" />
+        <CheckBox android:id="@id/flurry_debug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="false" android:text="Enable Flurry Debug" />
+        <CheckBox android:id="@id/kochava_debug" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:checked="false" android:text="Enable Kochava Debug" />
+        <CheckBox android:id="@id/debug_webview_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Enable Debug Webview" />
+        <LinearLayout android:orientation="vertical" android:id="@id/debug_webview_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip">
+            <Spinner android:id="@id/debug_show_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dialog" />
+            <Spinner android:id="@id/debug_tab_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dialog" />
+            <EditText android:id="@id/debug_tab_label_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Tab label" android:editable="true" />
+            <EditText android:id="@id/debug_url_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="URL" android:editable="true" />
+            <Button android:id="@id/debug_webview_submit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

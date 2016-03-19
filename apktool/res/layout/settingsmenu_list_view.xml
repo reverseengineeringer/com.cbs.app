@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/cbs_spacing" android:paddingTop="@dimen/cbs_spacing" android:paddingRight="@dimen/cbs_spacing" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/holder" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <TextView android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/cbs_spacing" android:layout_marginBottom="@dimen/cbs_spacing" android:layout_centerHorizontal="true" android:textIsSelectable="false" style="@style/CBSBigText" />
+    </RelativeLayout>
+</RelativeLayout>

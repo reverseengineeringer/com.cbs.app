@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/nielsen_msg" android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="25.0dip" android:text="@string/nielsen_mgs" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/cbs_blue" android:id="@id/terms_btn" android:layout_width="fill_parent" android:layout_height="15.0pt" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:text="@string/nielsen_terms_of_use" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/cbs_blue" android:id="@id/mobile_user_agree_btn" android:layout_width="fill_parent" android:layout_height="15.0pt" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:text="@string/nielsen_mobile_user_agreement" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/cbs_blue" android:id="@id/policy_btn" android:layout_width="fill_parent" android:layout_height="15.0pt" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:text="@string/nielsen_privacy_policy" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/cbs_blue" android:id="@id/video_btn" android:layout_width="fill_parent" android:layout_height="15.0pt" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="25.0dip" android:text="@string/nielsen_video_services" />
+    <Button android:textSize="16.0sp" android:textStyle="bold" android:id="@id/accept_nielsen_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Accept" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.LiveTv.Light" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:id="@id/txtTodayDate" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/LiveTvHeaderFont4TextStyle" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/live_tv_default_quarter_padding" layout="@layout/live_tv_horz_divider_light" />
+</LinearLayout>

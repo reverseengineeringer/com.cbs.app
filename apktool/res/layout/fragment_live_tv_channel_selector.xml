@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/double_cbs_spacing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/livetv_midheader_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cbs_spacing" android:src="@drawable/cbs_logo_all_access" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/live_tv_lucky_you" style="@style/LiveTvHeaderFont1TextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="You've got a few options!" style="@style/LiveTvSubheaderFontTextStyle" />
+    <com.cbs.app.livetv.widget.CustomTypefaceTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cbs_spacing" android:text="@string/live_tv_what_station" style="@style/LiveTvSubheaderFontTextStyle" />
+    <android.support.v7.widget.RecyclerView android:id="@id/rvChannels" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

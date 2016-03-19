@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/menu_item_textSize" android:textStyle="bold" android:textColor="@color/grey_enabled" android:gravity="center|left" android:id="@id/menu_title" android:paddingLeft="@dimen/menu_left_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:minHeight="@dimen/menu_item_height" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
